@@ -15,7 +15,7 @@ I am still learning best practices and practicing with Git, so there may be erro
 
 ## Official course repository
 
-[GitHub course repo]()
+[GitHub course repo](https://github.com/platzi/curso-frontend-developer-practico/tree/main)
 
 
 # Spanish Version
@@ -35,5 +35,5 @@ Sigo aprendiendo buenas prácticas y practicando en Git, por lo que puede haber 
 
 ## Repositorio oficial del curso
 
-[GitHub course repo]()
+[GitHub course repo](https://github.com/platzi/curso-frontend-developer-practico/tree/main)
 
