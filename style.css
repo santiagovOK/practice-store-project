@@ -106,7 +106,8 @@ body {
 }
 
 .desktop-menu ul li a {
-    display: inline-block; /* to apply margin */
+    display: inline-block;
+    /* to apply margin */
     color: var(--black);
     text-decoration: none;
     margin-bottom: 20px;
@@ -132,11 +133,11 @@ body {
     list-style: none;
 }
 
-.mobile-menu ul:nth-child(1){
+.mobile-menu ul:nth-child(1) {
     border-bottom: 1px solid var(--very-light-pink);
 }
 
-.mobile-menu ul:nth-child(2){
+.mobile-menu ul:nth-child(2) {
     padding-bottom: 100px;
 }
 
@@ -243,6 +244,38 @@ body {
 
 
 /* End of order section */
+
+/* my-orders section */
+
+.my-order-card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.my-order-card p:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-order-card p span:nth-child(1) {
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.my-order-card p span:nth-child(2) {
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
+
+.my-order-card p:nth-child(2) {
+    text-align: end;
+    font-weight: bold;
+}
+
+/* End of my-orders section */
 
 .login {
     width: 100%;
