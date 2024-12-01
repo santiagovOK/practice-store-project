@@ -563,6 +563,90 @@ nav {
 /* End of product-detail section */
 
 
+/* shopping-cart.html section */
+
+.shoppingcartsection-product-detail {
+  width: 360px;
+  padding: 24px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+}
+.shoppingcartsection-title-container {
+  display: flex;
+}
+.shoppingcartsection-title-container img {
+  transform: rotate(180deg);
+  margin-right: 14px;
+}
+.shoppingcartsection-title {
+  font-size: var(--lg);
+  font-weight: bold;
+}
+.shoppingcartsection-order {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  align-items: center;
+  background-color: var(--text-input-field);
+  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 0 24px;
+}
+.shoppingcartsection-order p:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.shoppingcartsection-order p span:nth-child(1) {
+  font-size: var(--md);
+  font-weight: bold;
+}
+.shoppingcartsection-order p:nth-child(2) {
+  text-align: end;
+  font-weight: bold;
+}
+.shoppingcartsection-shopping-cart {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 16px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.shoppingcartsection-shopping-cart figure {
+  margin: 0;
+}
+.shoppingcartsection-shopping-cart figure img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.shoppingcartsection-shopping-cart p:nth-child(2) {
+  color: var(--very-light-pink);
+}
+.shoppingcartsection-shopping-cart p:nth-child(3) {
+  font-size: var(--md);
+  font-weight: bold;
+}
+.shoppingcartsection-primary-button {
+  background-color: var(--hospital-green);
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 50px;
+}
+@media (max-width: 640px) {
+  .shoppingcartsection-product-detail {
+    width: 100%;
+  }
+}
+/* End of shopping-cart.html section */
+
+
 @media (max-width: 640px) {
     .cards-container {
         grid-template-columns: repeat(auto-fill, 140px);
@@ -604,4 +688,8 @@ nav {
     .product-detail {
         width: 100%;
     }
+
+    .shoppingcartsection-product-detail {
+        width: 100%;
+      }
 }
